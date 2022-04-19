@@ -1,0 +1,151 @@
+/* reset */
+
+/* Fondo general para el site */
+body{
+background-color: #1f2123;
+background-image: url("data:image/svg+xml,%3Csvg width='70' height='70' viewBox='0 0 70 70' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23101010' fill-opacity='0.98' fill-rule='evenodd'%3E%3Cpath d='M0 0h35v35H0V0zm5 5h25v25H5V5zm5 5h15v15H10V10zm5 5h5v5h-5v-5zM40 5h25v25H40V5zm5 5h15v15H45V10zm5 5h5v5h-5v-5zM70 35H35v35h35V35zm-5 5H40v25h25V40zm-5 5H45v15h15V45zm-5 5h-5v5h5v-5zM30 40H5v25h25V40zm-5 5H10v15h15V45zm-5 5h-5v5h5v-5z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+body{
+    font-family: 'Lexend Giga', sans-serif;
+
+}
+
+h1{
+    color:aliceblue;
+    font-size: xx-large;
+}
+
+h2{
+    color: aliceblue;
+}
+
+h2{
+    color:antiquewhite
+
+}
+
+h3{
+    color:antiquewhite
+}
+
+p{
+    color:antiquewhite
+}
+
+a{
+    color:antiquewhite
+}
+
+nav li {
+   
+
+    text-align: center;
+    width: 300px;
+    padding:0;
+    display: inline-block;
+    
+}
+
+nav li:hover{
+    text-decoration:underline;
+}
+
+
+nav li a{
+    color: rgb(255, 208, 0);
+    text-decoration: none;
+}
+
+
+.logott{
+    max-width: 70px;
+    
+}
+
+.product{
+ width: 10px;
+ 
+}
+
+.prod{
+    width: 150px;
+    padding: 1em;
+}
+
+.promos_tt{
+    display: grid;
+    grid-area: auto;
+    grid-template-columns: 50px 50px 50px ;
+    column-gap: 1rem;
+}
+
+.prod:hover{
+    border: 1px solid #2b2b2b;
+}
+
+footer{
+    background-color: #030303;
+    width: 100%;
+    height: 100%;
+    padding: .5em;
+    margin: .5em;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    font-size: small;
+    column-gap: 2%;
+    row-gap: 1%;
+    justify-items:stretch;
+}
+
+.menu_pie{
+    text-align: center;
+    width: 300px;
+    padding:0;
+    display:inline-table;
+    align-items: center;
+}
+
+
+.pfoot{
+    color: #8d8c8c;
+}
+
+.pfoot1{
+    color: #8d8c8c;
+}
+
+.foot1{
+    text-align-last:auto;
+}
+
+
+
+.videohero{
+    width: 100%;
+    display:grid;
+    grid-area: auto;
+    grid-template-columns: 80%;
+    grid-template-rows: 20%;
+}
+
+video{
+    justify-items: stretch;
+	object-fit: cover;
+    align-items: center;
+}
+
+.promos_tt{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+    gap: 1%;
+    
+}
+
+.product{
+    height: auto;
+    width: auto;
+
+}
